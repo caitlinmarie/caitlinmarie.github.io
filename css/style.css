@@ -705,8 +705,20 @@ nav ul li a:hover, .active-link {
 	margin-right: auto;
 	margin-bottom: 60px;
 }
+
+/* shots */
 .work-shots {
 	padding: 40px;
+}
+.work-shots .shot {
+	max-width: 800px;
+	margin: 0 auto;
+	z-index: 990;
+	text-align: center;
+}
+.work-shots .shot img {
+	max-width: 100%;
+	height: auto;
 }
 .shot-info {
 	margin-top: 40px;
@@ -734,9 +746,11 @@ nav ul li a:hover, .active-link {
 #cpw-main {
 	background-color: #4078a2;
 }
-
-#cpw-main .shot img {
-	padding-left: 70px;
+#cpw-news {
+	background-color: #cb465b;
+}
+#cpw-designer {
+	background-color: #369ea2;
 }
 
 /*----------------------------------------------------
@@ -1057,7 +1071,13 @@ footer p, footer p a {
 	.navbar.navbar-inverse.navbar-static-top a {
 		padding-left: 17px;
 	}
-	
+	.container, .work-shots {
+		padding: 0px;
+	}
+	.work-shots {
+		padding-top: 60px;
+		padding-bottom: 50px;
+	}
 }
 
 
